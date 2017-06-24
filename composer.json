@@ -4,9 +4,11 @@
     "require": {
         "php": "^7.1.3",
         "javiereguiluz/easyadmin-bundle": "^1.16",
+        "sensiolabs/security-checker": "^4.0",
         "symfony/console": "^3.3",
         "symfony/flex": "^1.0",
         "symfony/framework-bundle": "^3.3",
+        "symfony/requirements-checker": "^1.0",
         "symfony/web-server-bundle": "^3.3",
         "symfony/yaml": "^3.3"
     },
@@ -32,7 +34,9 @@
     "scripts": {
         "auto-scripts": {
             "make cache-warmup": "script",
-            "assets:install --symlink --relative %WEB_DIR%": "symfony-cmd"
+            "assets:install --symlink --relative %WEB_DIR%": "symfony-cmd",
+            "%BIN_DIR%/check.php": "php-script",
+            "vendor/bin/security-checker security:check": "php-script"
         },
         "post-install-cmd": [
             "@auto-scripts"
