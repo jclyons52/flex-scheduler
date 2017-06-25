@@ -9,6 +9,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Repairer
  * @ORM\Entity
  * @ORM\Table(name="repairer")
+ * @ApiPlatform\Core\Annotation\ApiResource
  */
 class Repairer
 {

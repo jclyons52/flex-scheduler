@@ -9,6 +9,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Contact
  * @ORM\Entity
  * @ORM\Table(name="contact")
+ * @ApiPlatform\Core\Annotation\ApiResource
  */
 class Contact
 {

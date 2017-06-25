@@ -9,6 +9,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Courier
  * @ORM\Entity
  * @ORM\Table(name="courier")
+ * @ApiPlatform\Core\Annotation\ApiResource
  */
 class Courier
 {

@@ -10,6 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
  *
  * @ORM\Entity
  * @ORM\Table(name="warranty_provider")
+ * @ApiPlatform\Core\Annotation\ApiResource
  */
 class WarrantyProvider
 {

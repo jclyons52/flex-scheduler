@@ -9,6 +9,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Task
  * @ORM\Entity
  * @ORM\Table(name="task")
+ * @ApiPlatform\Core\Annotation\ApiResource
  */
 class Task
 {

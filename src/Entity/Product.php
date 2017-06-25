@@ -8,6 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Product
  * @ORM\Entity
  * @ORM\Table(name="product")
+ * @ApiPlatform\Core\Annotation\ApiResource
  */
 class Product
 {

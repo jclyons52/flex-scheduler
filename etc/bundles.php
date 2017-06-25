@@ -9,4 +9,5 @@ return [
     'Doctrine\Bundle\DoctrineCacheBundle\DoctrineCacheBundle' => ['all' => true],
     'Doctrine\Bundle\DoctrineBundle\DoctrineBundle' => ['all' => true],
     'JavierEguiluz\Bundle\EasyAdminBundle\EasyAdminBundle' => ['all' => true],
+    'ApiPlatform\Core\Bridge\Symfony\Bundle\ApiPlatformBundle' => ['all' => true],
 ];
